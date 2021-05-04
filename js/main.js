@@ -5,5 +5,5 @@ function $(id){
 }
 
 function init(){
-
+    console.log("main")
 }

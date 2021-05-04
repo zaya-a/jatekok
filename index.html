@@ -2,13 +2,68 @@
 
 <html lang="hu">
     <head>
-        <title>Cím</title>
+        <title>Játékok</title>
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/mystyle.css">
-        <script src="js/code.js"></script>
+        <script src="js/zscode.js"></script>
+        <script src="js/main.js"></script>
     </head>
 
     <body>
+
+        <div id="zsombi">
+            <table id="jatekter">
+                <tr>
+                    <td id="x1y1" class="jatekdoboz"></td>
+                    <td id="x1y2" class="jatekdoboz"></td>
+                    <td id="x1y3" class="jatekdoboz"></td>
+                    <td id="x1y4" class="jatekdoboz"></td>
+                    <td id="x1y5" class="jatekdoboz"></td>
+                </tr>
+                <tr>
+                    <td id="x2y1" class="jatekdoboz"></td>
+                    <td id="x2y2" class="jatekdoboz"></td>
+                    <td id="x2y3" class="jatekdoboz"></td>
+                    <td id="x2y4" class="jatekdoboz"></td>
+                    <td id="x2y5" class="jatekdoboz"></td>
+                </tr>
+                <tr>
+                    <td id="x3y1" class="jatekdoboz"></td>
+                    <td id="x3y2" class="jatekdoboz"></td>
+                    <td id="x3y3" class="jatekdoboz"></td>
+                    <td id="x3y4" class="jatekdoboz"></td>
+                    <td id="x3y5" class="jatekdoboz"></td>
+                </tr>
+                <tr>
+                    <td id="x4y1" class="jatekdoboz"></td>
+                    <td id="x4y2" class="jatekdoboz"></td>
+                    <td id="x4y3" class="jatekdoboz"></td>
+                    <td id="x4y4" class="jatekdoboz"></td>
+                    <td id="x4y5" class="jatekdoboz"></td>
+                </tr>
+                <tr>
+                    <td id="x5y1" class="jatekdoboz"></td>
+                    <td id="x5y2" class="jatekdoboz"></td>
+                    <td id="x5y3" class="jatekdoboz"></td>
+                    <td id="x5y4" class="jatekdoboz"></td>
+                    <td id="x5y5" class="jatekdoboz"></td>
+                </tr>
+                <tr id="playerrow">
+                    <td id="p1"></td>
+                    <td id="p2"></td>
+                    <td id="p3"></td>
+                    <td id="p4"></td>
+                    <td id="p5"></td>
+                </tr>
+            </table>
+            <div class="gombdoboz">
+                <input type="button" value="balra" id="leftmove" class="lepesbtn">
+                <input type="button" value="jobbra" id="rightmove" class="lepesbtn">
+            </div>
+            <div class="gombdoboz">
+                <input type="button" value="Start" id="startbtn">
+            </div>
+        </div>
 
     </body>
 </html>

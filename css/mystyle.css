@@ -1,0 +1,34 @@
+body {
+  margin: 5px;
+  align-items: center;
+}
+
+#jatekter {
+  margin: 0 auto;
+}
+
+.jatekdoboz {
+  background-color: black;
+  border: 1px solid red;
+  height: 125px;
+  width: 125px;
+}
+
+#playerrow td {
+  background-color: black;
+  border: 1px solid red;
+  height: 50px;
+}
+
+.gombdoboz {
+  width: 300px;
+  margin: 5px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.lepesbtn {
+  width: 65px;
+  margin: 0 3px 0 3px;
+}
