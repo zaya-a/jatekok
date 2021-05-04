@@ -40,7 +40,7 @@ function rightmove(){
 }
 
 function mainGame(){
-    console.log("komo is sus, m8 be impasta");
+    console.log("komo is sus, m8 be impasta :)");
     delay=1500;
     redbox();
 }
