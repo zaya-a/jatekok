@@ -3,8 +3,41 @@ td{
     height: 200px;
     border: 3px solid black;
 }
-table{
+#fo{
     display: flex;
     vertical-align: center;
     justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+}
+#kovetkezo{
+    margin-left: 15px;
+    display: flex;
+    vertical-align: center;
+    justify-content: center;
+}
+p{
+    font-size: 30px;
+}
+#elsoJatekos{
+    margin-top: 50px;
+    margin-bottom: 200px;
+}
+#jatekosok{
+    width: 390px;
+    padding: 0px;
+}
+#content{
+    align-items: center;
+}
+#ujjatek{
+    display: flex;
+    vertical-align: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+#nullazo{
+    width: 150px;
+    height: 50px;
+    font-size: 30px;
 }
