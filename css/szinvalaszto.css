@@ -1,0 +1,49 @@
+body{
+background-image: url('https://images.pexels.com/photos/4175070/pexels-photo-4175070.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+background-repeat: no-repeat;
+background-size: cover;
+}
+#szin1{
+    background-color: white;
+    max-width: 190px;
+    max-height: 190px;
+    border-radius: 100%;
+    margin-right: 20px;
+    
+}
+#szin2{
+    background-color: white;
+    width: 190px;
+    height: 190px;
+    border-radius: 100%;
+    margin-right: 20px;
+}
+#szin3{
+    background-color: white;
+    width: 190px;
+    height: 190px;
+    border-radius: 100%;
+    margin-right: 20px;
+}
+#szin4{
+    background-color: white;
+    width: 190px;
+    height: 190px;
+    border-radius: 100%;
+    margin-right: 20px;
+}
+#szin5{
+    background-color: white;
+    width: 190px;
+    height: 190px;
+    border-radius: 100%;
+    margin-right: 20px;
+}
+#szin6{
+    background-color: white;
+    width: 190px;
+    height: 190px;
+    border-radius: 100%;
+    
+    
+}
