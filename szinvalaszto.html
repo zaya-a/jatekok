@@ -4,23 +4,23 @@
 <head>
     <meta charset="UTF-8" name="Aux Tibor">
     <title>Színválasztós játék!</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/szinvalaszto.css">
     <script src="js/szinvalaszto.js"></script>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
 </head>
 
 <body>
     <h1>Színkitalálós játék</h1>
-    <p>A megadott színekből találd ki, hogy melyik tartozik az adott rgb kódhoz!</p>
+    <p id="info">A megadott színekből találd ki, hogy melyik tartozik az adott rgb kódhoz!</p>
 
     <div class="container">
         <div class="row justify-content-center">
-            <div class="col rgb">
-                <span id="rgbMutato">Az rgb kód: </span><br>
-                <input type="button" value="start" id="startGomb">
+            <div class="col-6 rgb text-center ">
+                <input type="button" value="Start" id="startGomb"><br>
+                <span id="rgbMutato"></span>
             </div>
         </div>
-        <div class="row">
+        <div class="row" id="szinek">
             <div class="col" type="button" id="szin1">
 
             </div>
@@ -44,6 +44,9 @@
         <div class="row">
             <div class="col">
                 <span id="result"> </span>
+            </div>
+            <div class="col">
+                <input type="button" value="Új játék" id="newGame">
             </div>
 
         </div>

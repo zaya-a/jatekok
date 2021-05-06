@@ -14,4 +14,12 @@ h1 {
   font-size: 50px;
   color: darkblue;
   font-weight: 600;
+  animation: myanimation 7s infinite;
+}
+@keyframes myanimation {
+  0% {color: red;}
+  25%{color:yellow;}
+  50%{color:green;}
+  75%{color:blue;}
+  100% {color: red;}
 }
